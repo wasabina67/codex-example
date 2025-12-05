@@ -1,8 +1,8 @@
 # codex-example
 Codex example
 
-- 九九表 React アプリ
-  - React と Vite で作成した、1〜9 の掛け算表を表示するシンプルな Web アプリです。GitHub Pages で `/codex-example/` 配下に公開できるよう設定しています。
+## 九九表 React アプリ
+React と Vite で作成した、1〜9 の掛け算表を表示するシンプルな Web アプリです。GitHub Pages で `/codex-example/` 配下に公開できるよう設定しています。
 
 ## 必要要件
 - Node.js 18 以降
