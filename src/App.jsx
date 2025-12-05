@@ -1,8 +1,9 @@
 import './App.css';
 
-const numbers = Array.from({ length: 9 }, (_, index) => index + 1);
+
 
 export default function App() {
+  const numbers = Array.from({ length: 9 }, (_, index) => index + 1);
   return (
     <div className="app">
       <header>
@@ -14,7 +15,7 @@ export default function App() {
         <table>
           <thead>
             <tr>
-              <th aria-label="掛け算表の左上の空白セル"></th>
+              <th></th>
               {numbers.map((col) => (
                 <th key={`col-${col}`} scope="col">
                   {col}
